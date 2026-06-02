@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "calibri light";
+}
+.contenedor{
+    background: rgb(55, 96, 171);
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 400px;
+    background-image: url("../imagenes/banner2.jpg");
+    background-position: center;
+    background-size: cover; 
+}
+main{
+    background: white;
+    padding: 20px 30px;
+    text-align: center;
+}
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    border-radius: 50%;
+    margin: -75px auto 20px auto;
+    border: 6px solid #ffffff;
+}
+main .foto img{
+    width: 100%;
+    border-radius: 50%;
+}
+footer{
+    background: teal;
+    text-align: center;
+    padding: 25px;
+    color: #ffffff
+}
+.uno{
+    background: #EF476F;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border: 1px solid #000; 
+}
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: teal;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+/* --- ESTILOS DE LAS CAJAS DE ESPECIALIDADES --- */
+.grid-especialidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.caja-especialidad {
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    border: 4px solid #007bff;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.caja-especialidad img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* --- ESTILO DEL BOTÓN PERSONALIZADO --- */
+.boton-ver-mas {
+    background-color: #007bff !important; /* Azul para resaltar del teal general */
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* --- ESTILO DEL TÍTULO DE ESPECIALIDADES --- */
+.especialidades-titulo {
+    color: white;
+}
